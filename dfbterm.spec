@@ -15,7 +15,6 @@ Source0:	http://www.directfb.org/downloads/Programs/%{Name}-%{version}.tar.bz2
 License:	MIT
 BuildRequires:	directfb-devel
 BuildRequires:	lite-devel
-BuildRoot:	%{_tmppath}/%{name}-root
 
 %description
 DFBTerm is a terminal application for DirectFB. It uses LiTE (LiTE is
