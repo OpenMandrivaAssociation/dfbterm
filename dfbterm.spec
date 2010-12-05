@@ -2,7 +2,7 @@
 %define name dfbterm
 %define Name DFBTerm
 %define version 0.8.15
-%define rel	5
+%define rel	6
 %define release %mkrel %rel
 
 Name:		%name
