@@ -2,7 +2,7 @@
 %define name dfbterm
 %define Name DFBTerm
 %define version 0.8.15
-%define rel	6
+%define rel	7
 %define release %mkrel %rel
 
 Name:		%name
@@ -12,6 +12,7 @@ Release:	%release
 URL:		http://www.directfb.org/
 Group:		Terminals
 Source0:	http://www.directfb.org/downloads/Programs/%{Name}-%{version}.tar.bz2
+Patch0:		DFBTerm-0.8.15-fontdir.patch
 License:	MIT
 BuildRequires:	directfb-devel
 BuildRequires:	lite-devel
@@ -23,6 +24,7 @@ a Toolkit Engine) and has a very nice anti aliased fixed width font.
 
 %prep
 %setup -q -n %{Name}-%{version}
+%patch0 -p0
 
 %build
 
