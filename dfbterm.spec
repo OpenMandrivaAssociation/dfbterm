@@ -45,3 +45,51 @@ rm -rf %{buildroot}
 %{_bindir}/dfbterm
 
 
+
+
+%changelog
+* Fri Dec 17 2010 Funda Wang <fwang@mandriva.org> 0.8.15-7mdv2011.0
++ Revision: 622521
+- fix font dir
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - rebuild
+
+* Sun Nov 08 2009 Funda Wang <fwang@mandriva.org> 0.8.15-5mdv2010.1
++ Revision: 462941
+- rebuild for new dfb
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 0.8.15-4mdv2010.0
++ Revision: 427962
+- rebuild
+
+* Thu Aug 21 2008 Funda Wang <fwang@mandriva.org> 0.8.15-3mdv2009.0
++ Revision: 274558
+- rebuild
+
+* Fri Dec 28 2007 Anssi Hannula <anssi@mandriva.org> 0.8.15-2mdv2008.1
++ Revision: 138947
+- rebuild against new lite
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Tue May 22 2007 Anssi Hannula <anssi@mandriva.org> 0.8.15-1mdv2008.0
++ Revision: 29846
+- 0.8.15
+
+
+* Sat Mar 03 2007 Anssi Hannula <anssi@mandriva.org> 0.8.0-20051219.3mdv2007.0
++ Revision: 131654
+- rebuild
+- Import dfbterm
+
+* Sat May 06 2006 Anssi Hannula <anssi@mandriva.org> 0.8.0-20051219.2mdk
+- rebuild for new directfb
+
+* Fri Dec 23 2005 Anssi Hannula <anssi@mandriva.org> 0.8.0-20051219.1mdk
+- Initial Mandriva package
+
