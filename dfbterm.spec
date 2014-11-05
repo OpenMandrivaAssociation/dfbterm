@@ -14,8 +14,8 @@ Group:		Terminals
 Source0:	http://www.directfb.org/downloads/Programs/%{Name}-%{version}.tar.bz2
 Patch0:		DFBTerm-0.8.15-fontdir.patch
 License:	MIT
-BuildRequires:	directfb-devel
-BuildRequires:	lite-devel
+BuildRequires:	pkgconfig(directfb)
+BuildRequires:	pkgconfig(lite)
 BuildRoot:	%{_tmppath}/%{name}-root
 
 %description
