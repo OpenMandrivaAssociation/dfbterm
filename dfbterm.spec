@@ -9,7 +9,7 @@ Name:		%name
 Summary:	Terminal application for DirectFB
 Version:	%version
 Release:	%release
-URL:		http://www.directfb.org/
+URL:		https://www.directfb.org/
 Group:		Terminals
 Source0:	http://www.directfb.org/downloads/Programs/%{Name}-%{version}.tar.bz2
 Patch0:		DFBTerm-0.8.15-fontdir.patch
